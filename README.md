@@ -1,5 +1,6 @@
 $"# castLabs"
-Cypress is an end-to-end JavaScript testing framework that provides a visual interface to indicate which tests and which commands are taking place, passed, or failed. It is fast, and easy to set up and run
+Cypress is an end-to-end JavaScript testing framework that provides a visual interface to indicate which tests 
+and which commands are taking place, passed, or failed. It is fast, and easy to set up and run
 
 # Installing Cypress requires:
 
@@ -7,13 +8,19 @@ Install Cypress via npm:
 >_npm install
 
 editor terminal & run command npm init -y  : package.json file is created
+
 cd /your/project/path
+
 npm install cypress --save-dev
 
 npx cypress -v
+
 Cypress package version: 10.10.0
+
 npx cypress open
+
 npm install --save-dev cypress@10.10.0npm install --save-dev cypress@10.10.0
+
 node_modules/.bin/cypress open 
 
 # Running the cypress test
